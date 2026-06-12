@@ -110,6 +110,11 @@ main{
     transition:.3s;
 }
 
+.timeline{
+    white-space: pre-wrap;
+    line-height: 1.8;
+}
+
 .card:hover{
     transform:translateY(-5px);
     border-color:#d4af37;
