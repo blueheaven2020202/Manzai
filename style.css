@@ -120,6 +120,50 @@ main{
     border-color:#d4af37;
 }
 
+.timeline-box {
+    background: #000;
+    color: white;
+    border: 3px solid #ffd700;
+    border-radius: 15px;
+    padding: 25px;
+    width: 800px;
+    margin: 30px auto;
+}
+
+.timeline-box h2 {
+    color: #ffd700;
+    font-size: 32px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    color: #ffd700;
+    border-bottom: 2px solid #ffd700;
+    padding: 12px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #555;
+}
+
+.boke {
+    color: #ff6666;
+}
+
+.tsukkomi {
+    color: #66ccff;
+}
+
+.intro {
+    color: #99ff66;
+}
+
 .card h2{
     color:#d4af37;
 
