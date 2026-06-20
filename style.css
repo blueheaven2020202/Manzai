@@ -170,6 +170,10 @@ td {
     margin-bottom:15px;
 }
 
+.card p {
+    margin-bottom: 15px;
+}
+
 .card p{
     line-height:1.8;
 }
