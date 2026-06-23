@@ -62,9 +62,8 @@
         </section>
 
         <section class="card">
-            <img src="種類.jpg" alt="漫才用語・種類">
-            <a href="種類.jpg" target="_blank"><img src="漫才ファイル">
-            </a>
+            <img src="種類.jpg" alt="漫才用語・種類"
+                 oneclick="openImage(this.src)">
             <h2>漫才用語・種類</h2>
 
             <p>
@@ -73,7 +72,8 @@
         </section>
 
         <section class="card">
-            <img src="年表.jpg" alt="年表">
+            <img src="年表.jpg" alt="年表"
+                 oneclick="openImage(this.src)">
             <h2>第◯世代</h2>
 
             <p>
@@ -81,6 +81,21 @@
                 一般的に有名な時代ごとの特徴や漫才師を紹介。
             </p>
         </section>
+
+        <div id="overlay" onclick="closeImage()">
+        <img id="largeImage">
+        </div>
+
+        <script>
+        function openImage(src){
+        document.getElementById("largeImage").src = src;
+        document.getElementById("overlay").style.display = "flex";
+        }
+
+        function closeImage(){
+         document.getElementById("overlay").style.display = "none";
+        }
+        </script>
 
     </main>
     <footer>
