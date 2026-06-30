@@ -208,70 +208,7 @@ img{
     line-height:1.8;
 }
 
-writer-box{
-    width: 90%;
-    max-width: 1100px;
 
-    margin: 50px auto;
-    padding: 40px;
-
-    display: flex;
-    gap: 40px;
-
-    background: #1b1b1b;
-
-    border: 2px solid #ffd700;
-    border-radius: 15px;
-
-    color: white;
-}
-
-.writer-profile{
-    width: 260px;
-    flex-shrink: 0;
-    text-align: center;
-}
-
-.writer-icon{
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
-    margin-bottom: 20px;
-}
-
-.writer-profile h2{
-    color: #ffd700;
-    margin-bottom: 20px;
-    font-size: 28px;
-}
-
-.writer-profile p{
-    line-height: 1.8;
-    font-size: 17px;
-}
-
-.writer-content{
-    flex: 1;
-    display: flex;
-    gap: 40px;
-}
-
-.writer-section{
-    flex: 1;
-    padding-left: 40px;
-    border-left: 1px solid rgba(255,255,255,0.2);
-}
-
-.writer-section h3{
-    color: #ffd700;
-    font-size: 30px;
-    margin-bottom: 25px;
-}
-
-.writer-section p{
-    line-height: 2;
-    font-size: 18px;
-}
 
 footer{
     text-align:center;
