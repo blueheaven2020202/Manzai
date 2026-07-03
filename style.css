@@ -11,19 +11,16 @@ body{
 }
 
 header{
-    display:flex;
-    justify-content:flex-start;
-    align-items:center;
-    gap:10px;
-    padding:25px 60px;
-    border-bottom:1px solid #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .title-area{
     display: flex;
     align-items: center;
-    gap: 15px;/*タイトル同士の距離*/
-    margin-right: 80px;/*ナビとの距離*/
+    gap: 15px;         /* タイトル同士の距離 */
+    margin-right: 80px; /* ナビとの距離 */
 }
 
 header h1{
