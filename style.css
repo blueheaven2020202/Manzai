@@ -151,6 +151,10 @@ table {
     margin-top: 20px;
 }
 
+p{
+    margin: 10px;
+}
+
 th {
     color: #ffd700;
     border-bottom: 2px solid #ffd700;
