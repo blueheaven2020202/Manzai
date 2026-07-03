@@ -19,6 +19,12 @@ header{
     border-bottom:1px solid #333;
 }
 
+.title-area{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+
 header h1{
     color:#d4af37;
     font-size:40px;
