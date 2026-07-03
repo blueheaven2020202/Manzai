@@ -22,8 +22,8 @@ header{
 .title-area{
     display: flex;
     align-items: center;
-    gap: 15px;
-    margin-right: 80px;
+    gap: 15px;/*タイトル同士の距離*/
+    margin-right: 80px;/*ナビとの距離*/
 }
 
 header h1{
