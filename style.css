@@ -22,7 +22,8 @@ header{
 .title-area{
     display: flex;
     align-items: center;
-    gap:40px;
+    gap: 15px;
+    margin-right: 80px;
 }
 
 header h1{
