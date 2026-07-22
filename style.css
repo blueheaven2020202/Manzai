@@ -53,6 +53,8 @@ header{
     max-height: 90%;
 }
 
+
+
 .close {
     position: absolute;
     top: 20px;
@@ -309,4 +311,34 @@ footer{
     border-top:1px solid #333;
 
     color:#888;
+}
+
+.graph{
+    display:flex;
+    align-items:flex-end;
+    gap:20px;
+    height:250px;
+    border-left:2px solid #ffd700;
+    border-bottom:2px solid #ffd700;
+    padding:20px;
+    margin-bottom:50px;
+}
+
+.item{
+    text-align:center;
+}
+
+.bar{
+    width:60px;
+    background:#ffd700;
+    color:#000;
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+    font-weight:bold;
+}
+
+.item p{
+    color:white;
+    margin-top:10px;
 }
